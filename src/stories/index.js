@@ -10,6 +10,7 @@ import {Violin} from "./chapter-5/violin";
 import {PieChart} from "./chapter-5/pie";
 import {StackBars, StackChart} from "./chapter-5/stack";
 import {Sankey} from "./chapter-5/sankey";
+import {WordCloud} from "./chapter-5/word-cloud";
 
 storiesOf('Chapter 04', module)
   .add('Box Chart', () => <BoxRaw />)
@@ -23,3 +24,4 @@ storiesOf('Chapter 05', module)
   .add('StackChart', () => <StackChart />)
   .add('StackBars', () => <StackBars />)
   .add('Sankey', () => <Sankey />)
+  .add('WordCloud', () => <WordCloud />)

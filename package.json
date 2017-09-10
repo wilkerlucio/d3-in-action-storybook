@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "d3": "^4.10.2",
+    "d3-cloud": "^1.2.4",
     "d3-sankey": "^0.7.1",
     "d3-svg-legend": "^2.24.1",
     "number-picture": "^0.3.1",
