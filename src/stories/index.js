@@ -12,6 +12,7 @@ import {StackBars, StackChart} from "./chapter-5/stack";
 import {Sankey} from "./chapter-5/sankey";
 import {WordCloud} from "./chapter-5/word-cloud";
 import {TweetCirclePack} from "./chapter-6/tweet-circle-pack";
+import {Dendogram} from "./chapter-6/dendogram";
 
 storiesOf('Chapter 04', module)
   .add('Box Chart', () => <BoxRaw />)
@@ -29,3 +30,4 @@ storiesOf('Chapter 05', module)
 
 storiesOf('Chapter 6', module)
   .add('TweetCirclePack', () => <TweetCirclePack/>)
+  .add('Dendogram', () => <Dendogram/>)
