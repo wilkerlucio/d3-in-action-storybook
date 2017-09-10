@@ -23,7 +23,7 @@ export class Dendogram extends React.Component {
         .enter()
         .append('g')
         .attr('class', 'node')
-        .attr('transform', d => `translate(${d.x}, ${d.y})`)
+        .attr('transform', d => `translate(${d.y}, ${d.x})`)
 
       d3.selectAll('g.node')
         .append('circle')
@@ -35,11 +35,26 @@ export class Dendogram extends React.Component {
       d3.select('#treeG').selectAll('line')
         .data(treeData.filter(d => d.parent))
         .enter().insert('line', 'g')
-        .attr('x1', d => d.parent.x)
-        .attr('y1', d => d.parent.y)
-        .attr('x2', d => d.x)
-        .attr('y2', d => d.y)
+        .attr('x1', d => d.parent.y)
+        .attr('y1', d => d.parent.x)
+        .attr('x2', d => d.y)
+        .attr('y2', d => d.x)
         .style('stroke', 'black')
+
+      d3.selectAll('g.node').append('text')
+        .style('text-anchor', 'middle')
+        .style('fill', '#4f442b')
+        .text(d => d.data.id || d.data.key || d.data.content)
+
+      const treeZoom = d3.zoom()
+        .on('zoom', _ => {
+          console.log(d3.event);
+          const {x, y} = d3.event.transform;
+
+          d3.select('#treeG').attr('transform', `translate(${x}, ${y})`)
+        })
+
+      d3.select('svg').call(treeZoom)
     })
   }
 
