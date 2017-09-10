@@ -1,0 +1,27 @@
+{
+  "name": "d3-in-action-react",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "d3": "^4.10.2",
+    "d3-sankey": "^0.7.1",
+    "d3-svg-legend": "^2.24.1",
+    "number-picture": "^0.3.1",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "react-scripts": "1.0.13"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "storybook": "start-storybook -p 9009 -s public",
+    "build-storybook": "build-storybook -s public"
+  },
+  "devDependencies": {
+    "@storybook/addon-actions": "^3.2.6",
+    "@storybook/addon-links": "^3.2.6",
+    "@storybook/react": "^3.2.8"
+  }
+}
