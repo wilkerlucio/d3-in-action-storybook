@@ -14,6 +14,7 @@ import {WordCloud} from "./chapter-5/word-cloud";
 import {TweetCirclePack} from "./chapter-6/tweet-circle-pack";
 import {Dendogram} from "./chapter-6/dendogram";
 import {Radial} from "./chapter-6/radial";
+import {Partition} from "./chapter-6/partition";
 
 storiesOf('Chapter 04', module)
   .add('Box Chart', () => <BoxRaw />)
@@ -33,3 +34,4 @@ storiesOf('Chapter 06', module)
   .add('TweetCirclePack', () => <TweetCirclePack/>)
   .add('Dendogram', () => <Dendogram/>)
   .add('Radial', () => <Radial/>)
+  .add('Partition', () => <Partition/>)
