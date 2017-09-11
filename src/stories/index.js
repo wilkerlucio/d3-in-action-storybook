@@ -16,6 +16,7 @@ import {Dendogram} from "./chapter-6/dendogram";
 import {Radial} from "./chapter-6/radial";
 import {Partition} from "./chapter-6/partition";
 import {Sunburst} from "./chapter-6/sunburst";
+import {Treemap} from "./chapter-6/treemap";
 
 storiesOf('Chapter 04 - Chart Components', module)
   .add('Box Chart', () => <BoxRaw />)
@@ -37,3 +38,4 @@ storiesOf('Chapter 06 - Hierachical Visualizations', module)
   .add('Radial', () => <Radial/>)
   .add('Partition', () => <Partition/>)
   .add('Sunburst', () => <Sunburst/>)
+  .add('Treemap', () => <Treemap/>)
