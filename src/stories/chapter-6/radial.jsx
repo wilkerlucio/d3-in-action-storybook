@@ -1,14 +1,20 @@
 import * as d3 from 'd3'
 import React from 'react'
 
-export class Dendogram extends React.Component {
+function project(x, y) {
+  const angle = x / 90 * Math.PI
+  const radius = y
+  return [radius * Math.cos(angle), radius * Math.sin(angle)];
+}
+
+export class Radial extends React.Component {
   componentDidMount() {
     d3.json('/data/tweets.json', (data) => {
       const depthScale = d3.scaleOrdinal(["#5EAFC6", "#FE9922", "#93c464", "#75739F"]).domain(d3.range(4))
 
       const nestedTweets = d3.nest().key(d => d.user).entries(data.tweets)
       const packableTweets = {id: 'All Tweets', values: nestedTweets}
-      const treeChart = d3.tree().size([500, 500])
+      const treeChart = d3.tree().size([200, 200])
 
       const root = d3.hierarchy(packableTweets, d => d.values)
 
@@ -17,13 +23,13 @@ export class Dendogram extends React.Component {
       d3.select('svg')
         .append('g')
         .attr('id', 'treeG')
-        .attr('transform', 'translate(60, 20)')
+        .attr('transform', 'translate(250, 250)')
         .selectAll('g')
         .data(treeData)
         .enter()
         .append('g')
         .attr('class', 'node')
-        .attr('transform', d => `translate(${d.y}, ${d.x})`)
+        .attr('transform', d => `translate(${project(d.x, d.y)})`)
 
       d3.selectAll('g.node')
         .append('circle')
@@ -35,10 +41,10 @@ export class Dendogram extends React.Component {
       d3.select('#treeG').selectAll('line')
         .data(treeData.filter(d => d.parent))
         .enter().insert('line', 'g')
-        .attr('x1', d => d.parent.y)
-        .attr('y1', d => d.parent.x)
-        .attr('x2', d => d.y)
-        .attr('y2', d => d.x)
+        .attr('x1', d => project(d.parent.x, d.parent.y)[0])
+        .attr('y1', d => project(d.parent.x, d.parent.y)[1])
+        .attr('x2', d => project(d.x, d.y)[0])
+        .attr('y2', d => project(d.x, d.y)[1])
         .style('stroke', 'black')
 
       d3.selectAll('g.node').append('text')
@@ -50,7 +56,7 @@ export class Dendogram extends React.Component {
         .on('zoom', _ => {
           const {x, y} = d3.event.transform;
 
-          d3.select('#treeG').attr('transform', `translate(${x}, ${y})`)
+          d3.select('#treeG').attr('transform', `translate(${x + 250}, ${y + 250})`)
         })
 
       d3.select('svg').call(treeZoom)
