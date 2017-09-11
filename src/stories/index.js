@@ -17,12 +17,12 @@ import {Radial} from "./chapter-6/radial";
 import {Partition} from "./chapter-6/partition";
 import {Sunburst} from "./chapter-6/sunburst";
 
-storiesOf('Chapter 04', module)
+storiesOf('Chapter 04 - Chart Components', module)
   .add('Box Chart', () => <BoxRaw />)
   .add('Line Chart', () => <LineRaw />)
   .add('StreamGraph', () => <StreamGraphD3 />)
 
-storiesOf('Chapter 05', module)
+storiesOf('Chapter 05 - Layouts', module)
   .add('Histogram', () => <Histogram />)
   .add('Violin', () => <Violin />)
   .add('PieChart', () => <PieChart />)
@@ -31,7 +31,7 @@ storiesOf('Chapter 05', module)
   .add('Sankey', () => <Sankey />)
   .add('WordCloud', () => <WordCloud />)
 
-storiesOf('Chapter 06', module)
+storiesOf('Chapter 06 - Hierachical Visualizations', module)
   .add('TweetCirclePack', () => <TweetCirclePack/>)
   .add('Dendogram', () => <Dendogram/>)
   .add('Radial', () => <Radial/>)
