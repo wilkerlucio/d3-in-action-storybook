@@ -1,7 +1,7 @@
 import * as d3 from 'd3'
 import React from 'react'
 
-export class Partition extends React.Component {
+export class Sunburst extends React.Component {
   componentDidMount() {
     d3.json('/data/tweets.json', (data) => {
       const depthScale = d3.scaleOrdinal(["#5EAFC6", "#FE9922", "#93c464", "#75739F"]).domain(d3.range(4))
@@ -12,27 +12,27 @@ export class Partition extends React.Component {
       const root = d3.hierarchy(packableTweets, d => d.values)
         .sum(d => d.retweets ? d.retweets.length + d.favorites.length + 1 : undefined)
 
-      const partitionLayout = d3.partition().size([500, 300]).padding(1)
+      const partitionLayout = d3.partition().size([2 * Math.PI, 250])
 
       partitionLayout(root)
 
-      console.log(root.descendants());
+      const arc = d3.arc().innerRadius(d => d.y0).outerRadius(d => d.y1)
 
       d3.select('svg')
-        .selectAll('react')
+        .append('g')
+        .attr('transform', 'translate(255, 255)')
+        .selectAll('path')
         .data(root.descendants())
         .enter()
-        .append('rect')
-        .attr('x', d => d.x0)
-        .attr('y', d => d.y0)
-        .attr('width', d => d.x1 - d.x0)
-        .attr('height', d => d.y1 - d.y0)
-        // .attr('x', d => d.y0)
-        // .attr('y', d => d.x0)
-        // .attr('width', d => d.y1 - d.y0)
-        // .attr('height', d => d.x1 - d.x0)
+        .append('path')
+        .attr('d', d => arc({
+          y0: d.y0,
+          y1: d.y1,
+          startAngle: d.x0,
+          endAngle: d.x1
+        }))
         .attr('fill', d => depthScale(d.depth))
-        //.attr('stroke', 'black')
+        .attr('stroke', 'black')
     })
   }
 
