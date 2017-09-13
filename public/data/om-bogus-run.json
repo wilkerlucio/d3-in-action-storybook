@@ -1,0 +1,470 @@
+{
+  "name": "Root",
+  "value": 2849,
+  "children": [
+    {
+      "name": ":hello",
+      "value": 1
+    },
+    {
+      "name": ":some_300",
+      "value": 306,
+      "children": [
+        {
+          "name": ":value",
+          "value": 1
+        },
+        {
+          "name": ":path",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "name": ":quick",
+      "value": 1712,
+      "children": [
+        {
+          "name": ":slow_1200",
+          "value": 1204
+        },
+        {
+          "name": ":deep_400",
+          "value": 508,
+          "children": [
+            {
+              "name": ":nest_100",
+              "value": 104
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": ":repeat.collection_30",
+      "value": 830,
+      "children": [
+        {
+          "name": "0",
+          "value": 29,
+          "children": [
+            {
+              "name": ":name_3",
+              "value": 4
+            },
+            {
+              "name": ":id_20",
+              "value": 25
+            }
+          ]
+        },
+        {
+          "name": "7",
+          "value": 25,
+          "children": [
+            {
+              "name": ":name_3",
+              "value": 4
+            },
+            {
+              "name": ":id_20",
+              "value": 21
+            }
+          ]
+        },
+        {
+          "name": "20",
+          "value": 28,
+          "children": [
+            {
+              "name": ":name_3",
+              "value": 4
+            },
+            {
+              "name": ":id_20",
+              "value": 24
+            }
+          ]
+        },
+        {
+          "name": "27",
+          "value": 25,
+          "children": [
+            {
+              "name": ":name_3",
+              "value": 4
+            },
+            {
+              "name": ":id_20",
+              "value": 21
+            }
+          ]
+        },
+        {
+          "name": "1",
+          "value": 28,
+          "children": [
+            {
+              "name": ":name_3",
+              "value": 4
+            },
+            {
+              "name": ":id_20",
+              "value": 24
+            }
+          ]
+        },
+        {
+          "name": "24",
+          "value": 28,
+          "children": [
+            {
+              "name": ":name_3",
+              "value": 4
+            },
+            {
+              "name": ":id_20",
+              "value": 24
+            }
+          ]
+        },
+        {
+          "name": "4",
+          "value": 29,
+          "children": [
+            {
+              "name": ":name_3",
+              "value": 4
+            },
+            {
+              "name": ":id_20",
+              "value": 25
+            }
+          ]
+        },
+        {
+          "name": "15",
+          "value": 28,
+          "children": [
+            {
+              "name": ":name_3",
+              "value": 4
+            },
+            {
+              "name": ":id_20",
+              "value": 24
+            }
+          ]
+        },
+        {
+          "name": "21",
+          "value": 28,
+          "children": [
+            {
+              "name": ":name_3",
+              "value": 3
+            },
+            {
+              "name": ":id_20",
+              "value": 25
+            }
+          ]
+        },
+        {
+          "name": "13",
+          "value": 25,
+          "children": [
+            {
+              "name": ":name_3",
+              "value": 4
+            },
+            {
+              "name": ":id_20",
+              "value": 21
+            }
+          ]
+        },
+        {
+          "name": "22",
+          "value": 27,
+          "children": [
+            {
+              "name": ":name_3",
+              "value": 4
+            },
+            {
+              "name": ":id_20",
+              "value": 23
+            }
+          ]
+        },
+        {
+          "name": "29",
+          "value": 26,
+          "children": [
+            {
+              "name": ":name_3",
+              "value": 4
+            },
+            {
+              "name": ":id_20",
+              "value": 22
+            }
+          ]
+        },
+        {
+          "name": "6",
+          "value": 25,
+          "children": [
+            {
+              "name": ":name_3",
+              "value": 3
+            },
+            {
+              "name": ":id_20",
+              "value": 22
+            }
+          ]
+        },
+        {
+          "name": "28",
+          "value": 26,
+          "children": [
+            {
+              "name": ":name_3",
+              "value": 4
+            },
+            {
+              "name": ":id_20",
+              "value": 22
+            }
+          ]
+        },
+        {
+          "name": "25",
+          "value": 26,
+          "children": [
+            {
+              "name": ":name_3",
+              "value": 4
+            },
+            {
+              "name": ":id_20",
+              "value": 22
+            }
+          ]
+        },
+        {
+          "name": "17",
+          "value": 28,
+          "children": [
+            {
+              "name": ":name_3",
+              "value": 3
+            },
+            {
+              "name": ":id_20",
+              "value": 25
+            }
+          ]
+        },
+        {
+          "name": "3",
+          "value": 29,
+          "children": [
+            {
+              "name": ":name_3",
+              "value": 4
+            },
+            {
+              "name": ":id_20",
+              "value": 25
+            }
+          ]
+        },
+        {
+          "name": "12",
+          "value": 28,
+          "children": [
+            {
+              "name": ":name_3",
+              "value": 4
+            },
+            {
+              "name": ":id_20",
+              "value": 24
+            }
+          ]
+        },
+        {
+          "name": "2",
+          "value": 29,
+          "children": [
+            {
+              "name": ":name_3",
+              "value": 4
+            },
+            {
+              "name": ":id_20",
+              "value": 25
+            }
+          ]
+        },
+        {
+          "name": "23",
+          "value": 29,
+          "children": [
+            {
+              "name": ":name_3",
+              "value": 4
+            },
+            {
+              "name": ":id_20",
+              "value": 25
+            }
+          ]
+        },
+        {
+          "name": "19",
+          "value": 28,
+          "children": [
+            {
+              "name": ":name_3",
+              "value": 4
+            },
+            {
+              "name": ":id_20",
+              "value": 24
+            }
+          ]
+        },
+        {
+          "name": "11",
+          "value": 26,
+          "children": [
+            {
+              "name": ":name_3",
+              "value": 4
+            },
+            {
+              "name": ":id_20",
+              "value": 22
+            }
+          ]
+        },
+        {
+          "name": "9",
+          "value": 24,
+          "children": [
+            {
+              "name": ":name_3",
+              "value": 4
+            },
+            {
+              "name": ":id_20",
+              "value": 20
+            }
+          ]
+        },
+        {
+          "name": "5",
+          "value": 28,
+          "children": [
+            {
+              "name": ":name_3",
+              "value": 4
+            },
+            {
+              "name": ":id_20",
+              "value": 24
+            }
+          ]
+        },
+        {
+          "name": "14",
+          "value": 28,
+          "children": [
+            {
+              "name": ":name_3",
+              "value": 4
+            },
+            {
+              "name": ":id_20",
+              "value": 24
+            }
+          ]
+        },
+        {
+          "name": "26",
+          "value": 29,
+          "children": [
+            {
+              "name": ":name_3",
+              "value": 4
+            },
+            {
+              "name": ":id_20",
+              "value": 25
+            }
+          ]
+        },
+        {
+          "name": "16",
+          "value": 29,
+          "children": [
+            {
+              "name": ":name_3",
+              "value": 4
+            },
+            {
+              "name": ":id_20",
+              "value": 25
+            }
+          ]
+        },
+        {
+          "name": "10",
+          "value": 26,
+          "children": [
+            {
+              "name": ":name_3",
+              "value": 4
+            },
+            {
+              "name": ":id_20",
+              "value": 22
+            }
+          ]
+        },
+        {
+          "name": "18",
+          "value": 27,
+          "children": [
+            {
+              "name": ":name_3",
+              "value": 3
+            },
+            {
+              "name": ":id_20",
+              "value": 24
+            }
+          ]
+        },
+        {
+          "name": "8",
+          "value": 29,
+          "children": [
+            {
+              "name": ":name_3",
+              "value": 4
+            },
+            {
+              "name": ":id_20",
+              "value": 25
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
