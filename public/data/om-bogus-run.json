@@ -1,32 +1,36 @@
 {
   "name": "Root",
-  "value": 2849,
+  "value": 3344,
   "children": [
     {
       "name": ":hello",
-      "value": 1
+      "value": 0
     },
     {
       "name": ":some_300",
-      "value": 306,
+      "value": 811,
       "children": [
         {
           "name": ":value",
-          "value": 1
+          "value": 0
         },
         {
           "name": ":path",
           "value": 0
+        },
+        {
+          "name": ":delay-value",
+          "value": 505
         }
       ]
     },
     {
       "name": ":quick",
-      "value": 1712,
+      "value": 1710,
       "children": [
         {
           "name": ":slow_1200",
-          "value": 1204
+          "value": 1202
         },
         {
           "name": ":deep_400",
@@ -42,7 +46,7 @@
     },
     {
       "name": ":repeat.collection_30",
-      "value": 830,
+      "value": 823,
       "children": [
         {
           "name": "0",
@@ -60,20 +64,6 @@
         },
         {
           "name": "7",
-          "value": 25,
-          "children": [
-            {
-              "name": ":name_3",
-              "value": 4
-            },
-            {
-              "name": ":id_20",
-              "value": 21
-            }
-          ]
-        },
-        {
-          "name": "20",
           "value": 28,
           "children": [
             {
@@ -87,8 +77,8 @@
           ]
         },
         {
-          "name": "27",
-          "value": 25,
+          "name": "20",
+          "value": 29,
           "children": [
             {
               "name": ":name_3",
@@ -96,7 +86,21 @@
             },
             {
               "name": ":id_20",
-              "value": 21
+              "value": 25
+            }
+          ]
+        },
+        {
+          "name": "27",
+          "value": 28,
+          "children": [
+            {
+              "name": ":name_3",
+              "value": 4
+            },
+            {
+              "name": ":id_20",
+              "value": 24
             }
           ]
         },
@@ -144,11 +148,11 @@
         },
         {
           "name": "15",
-          "value": 28,
+          "value": 27,
           "children": [
             {
               "name": ":name_3",
-              "value": 4
+              "value": 3
             },
             {
               "name": ":id_20",
@@ -158,21 +162,7 @@
         },
         {
           "name": "21",
-          "value": 28,
-          "children": [
-            {
-              "name": ":name_3",
-              "value": 3
-            },
-            {
-              "name": ":id_20",
-              "value": 25
-            }
-          ]
-        },
-        {
-          "name": "13",
-          "value": 25,
+          "value": 24,
           "children": [
             {
               "name": ":name_3",
@@ -180,12 +170,12 @@
             },
             {
               "name": ":id_20",
-              "value": 21
+              "value": 20
             }
           ]
         },
         {
-          "name": "22",
+          "name": "13",
           "value": 27,
           "children": [
             {
@@ -199,7 +189,7 @@
           ]
         },
         {
-          "name": "29",
+          "name": "22",
           "value": 26,
           "children": [
             {
@@ -209,26 +199,40 @@
             {
               "name": ":id_20",
               "value": 22
+            }
+          ]
+        },
+        {
+          "name": "29",
+          "value": 28,
+          "children": [
+            {
+              "name": ":name_3",
+              "value": 3
+            },
+            {
+              "name": ":id_20",
+              "value": 25
             }
           ]
         },
         {
           "name": "6",
-          "value": 25,
+          "value": 28,
           "children": [
             {
               "name": ":name_3",
-              "value": 3
+              "value": 4
             },
             {
               "name": ":id_20",
-              "value": 22
+              "value": 24
             }
           ]
         },
         {
           "name": "28",
-          "value": 26,
+          "value": 28,
           "children": [
             {
               "name": ":name_3",
@@ -236,13 +240,13 @@
             },
             {
               "name": ":id_20",
-              "value": 22
+              "value": 24
             }
           ]
         },
         {
           "name": "25",
-          "value": 26,
+          "value": 27,
           "children": [
             {
               "name": ":name_3",
@@ -250,13 +254,13 @@
             },
             {
               "name": ":id_20",
-              "value": 22
+              "value": 23
             }
           ]
         },
         {
           "name": "17",
-          "value": 28,
+          "value": 26,
           "children": [
             {
               "name": ":name_3",
@@ -264,96 +268,12 @@
             },
             {
               "name": ":id_20",
-              "value": 25
+              "value": 23
             }
           ]
         },
         {
           "name": "3",
-          "value": 29,
-          "children": [
-            {
-              "name": ":name_3",
-              "value": 4
-            },
-            {
-              "name": ":id_20",
-              "value": 25
-            }
-          ]
-        },
-        {
-          "name": "12",
-          "value": 28,
-          "children": [
-            {
-              "name": ":name_3",
-              "value": 4
-            },
-            {
-              "name": ":id_20",
-              "value": 24
-            }
-          ]
-        },
-        {
-          "name": "2",
-          "value": 29,
-          "children": [
-            {
-              "name": ":name_3",
-              "value": 4
-            },
-            {
-              "name": ":id_20",
-              "value": 25
-            }
-          ]
-        },
-        {
-          "name": "23",
-          "value": 29,
-          "children": [
-            {
-              "name": ":name_3",
-              "value": 4
-            },
-            {
-              "name": ":id_20",
-              "value": 25
-            }
-          ]
-        },
-        {
-          "name": "19",
-          "value": 28,
-          "children": [
-            {
-              "name": ":name_3",
-              "value": 4
-            },
-            {
-              "name": ":id_20",
-              "value": 24
-            }
-          ]
-        },
-        {
-          "name": "11",
-          "value": 26,
-          "children": [
-            {
-              "name": ":name_3",
-              "value": 4
-            },
-            {
-              "name": ":id_20",
-              "value": 22
-            }
-          ]
-        },
-        {
-          "name": "9",
           "value": 24,
           "children": [
             {
@@ -363,6 +283,90 @@
             {
               "name": ":id_20",
               "value": 20
+            }
+          ]
+        },
+        {
+          "name": "12",
+          "value": 27,
+          "children": [
+            {
+              "name": ":name_3",
+              "value": 4
+            },
+            {
+              "name": ":id_20",
+              "value": 23
+            }
+          ]
+        },
+        {
+          "name": "2",
+          "value": 27,
+          "children": [
+            {
+              "name": ":name_3",
+              "value": 4
+            },
+            {
+              "name": ":id_20",
+              "value": 23
+            }
+          ]
+        },
+        {
+          "name": "23",
+          "value": 26,
+          "children": [
+            {
+              "name": ":name_3",
+              "value": 4
+            },
+            {
+              "name": ":id_20",
+              "value": 22
+            }
+          ]
+        },
+        {
+          "name": "19",
+          "value": 27,
+          "children": [
+            {
+              "name": ":name_3",
+              "value": 3
+            },
+            {
+              "name": ":id_20",
+              "value": 24
+            }
+          ]
+        },
+        {
+          "name": "11",
+          "value": 29,
+          "children": [
+            {
+              "name": ":name_3",
+              "value": 4
+            },
+            {
+              "name": ":id_20",
+              "value": 25
+            }
+          ]
+        },
+        {
+          "name": "9",
+          "value": 29,
+          "children": [
+            {
+              "name": ":name_3",
+              "value": 4
+            },
+            {
+              "name": ":id_20",
+              "value": 25
             }
           ]
         },
@@ -396,21 +400,21 @@
         },
         {
           "name": "26",
-          "value": 29,
+          "value": 26,
           "children": [
             {
               "name": ":name_3",
-              "value": 4
+              "value": 3
             },
             {
               "name": ":id_20",
-              "value": 25
+              "value": 23
             }
           ]
         },
         {
           "name": "16",
-          "value": 29,
+          "value": 27,
           "children": [
             {
               "name": ":name_3",
@@ -418,31 +422,17 @@
             },
             {
               "name": ":id_20",
-              "value": 25
+              "value": 23
             }
           ]
         },
         {
           "name": "10",
-          "value": 26,
+          "value": 28,
           "children": [
             {
               "name": ":name_3",
               "value": 4
-            },
-            {
-              "name": ":id_20",
-              "value": 22
-            }
-          ]
-        },
-        {
-          "name": "18",
-          "value": 27,
-          "children": [
-            {
-              "name": ":name_3",
-              "value": 3
             },
             {
               "name": ":id_20",
@@ -451,8 +441,8 @@
           ]
         },
         {
-          "name": "8",
-          "value": 29,
+          "name": "18",
+          "value": 25,
           "children": [
             {
               "name": ":name_3",
@@ -460,7 +450,21 @@
             },
             {
               "name": ":id_20",
-              "value": 25
+              "value": 21
+            }
+          ]
+        },
+        {
+          "name": "8",
+          "value": 27,
+          "children": [
+            {
+              "name": ":name_3",
+              "value": 4
+            },
+            {
+              "name": ":id_20",
+              "value": 23
             }
           ]
         }
