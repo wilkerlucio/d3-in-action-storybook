@@ -18,6 +18,7 @@ import {Partition} from "./chapter-6/partition";
 import {Sunburst} from "./chapter-6/sunburst";
 import {Treemap} from "./chapter-6/treemap";
 import {OmFlame} from "./experiments/om-flamegraph";
+import {QueueViewNP} from "./number-picture/queue-view";
 
 storiesOf('Chapter 04 - Chart Components', module)
   .add('Box Chart', () => <BoxRaw />)
@@ -42,4 +43,8 @@ storiesOf('Chapter 06 - Hierachical Visualizations', module)
   .add('Treemap', () => <Treemap/>)
 
 storiesOf('Experiments', module)
-  .add('OmFlame', () => <OmFlame/>)
+  .add('OmFlame', () => <OmFlame data="/data/om-bogus-run.json"/>)
+  .add('OmFlame Dino', () => <OmFlame data="/data/flame/dino.json"/>)
+
+storiesOf('Number Picture', module)
+  .add('QueueViewNP', () => <QueueViewNP/>)

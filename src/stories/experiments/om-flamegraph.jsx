@@ -7,7 +7,7 @@ export class OmFlame extends React.Component {
     const flameGraph = flame()
       .width(960)
 
-    d3.json("/data/om-bogus-run.json", (error, data) => {
+    d3.json(this.props.data, (error, data) => {
       if (error) return console.warn(error)
       d3.select(this.root)
         .datum(data)

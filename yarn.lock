@@ -5324,9 +5324,9 @@ number-is-nan@^1.0.0:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/number-is-nan/-/number-is-nan-1.0.1.tgz#097b602b53422a522c1afb8790318336941a011d"
 
-number-picture@^0.3.1:
-  version "0.3.1"
-  resolved "https://registry.yarnpkg.com/number-picture/-/number-picture-0.3.1.tgz#5bf41dded54516f3f81fde41d067fc138dde3dab"
+number-picture@^0.4.2:
+  version "0.4.2"
+  resolved "https://registry.yarnpkg.com/number-picture/-/number-picture-0.4.2.tgz#b8de4a567672a82b77a5bb2b3162175fb3e1a8cb"
   dependencies:
     array-uniq "^1.0.3"
     babel-runtime "^6.20.0"
