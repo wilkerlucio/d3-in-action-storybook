@@ -2339,6 +2339,14 @@ d3-ease@1, d3-ease@1.0.3, d3-ease@^1.0.3:
   version "1.0.3"
   resolved "https://registry.yarnpkg.com/d3-ease/-/d3-ease-1.0.3.tgz#68bfbc349338a380c44d8acc4fbc3304aa2d8c0e"
 
+d3-flame-graph@^1.0.8:
+  version "1.0.8"
+  resolved "https://registry.yarnpkg.com/d3-flame-graph/-/d3-flame-graph-1.0.8.tgz#f0fd87a7e0c164667abef331bad857f8bb2e457c"
+  dependencies:
+    d3 "^4.10.0"
+    d3-tip "^0.7.1"
+    graceful-fs "^4.1.11"
+
 d3-force@1.0.6, d3-force@^1.0.6:
   version "1.0.6"
   resolved "https://registry.yarnpkg.com/d3-force/-/d3-force-1.0.6.tgz#ea7e1b7730e2664cd314f594d6718c57cc132b79"
@@ -2473,6 +2481,12 @@ d3-timer@1, d3-timer@1.0.7:
   version "1.0.7"
   resolved "https://registry.yarnpkg.com/d3-timer/-/d3-timer-1.0.7.tgz#df9650ca587f6c96607ff4e60cc38229e8dd8531"
 
+d3-tip@^0.7.1:
+  version "0.7.1"
+  resolved "https://registry.yarnpkg.com/d3-tip/-/d3-tip-0.7.1.tgz#78cbf554f67b720a70e3b0f191e14cffe68cdd79"
+  dependencies:
+    d3 "^4.2"
+
 d3-transition@1, d3-transition@1.1.0, d3-transition@^1.0.3:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/d3-transition/-/d3-transition-1.1.0.tgz#cfc85c74e5239324290546623572990560c3966f"
@@ -2517,7 +2531,7 @@ d3-zoom@1.5.0:
     d3-selection "1"
     d3-transition "1"
 
-d3@^4.10.2:
+d3@^4.10.0, d3@^4.10.2, d3@^4.2:
   version "4.10.2"
   resolved "https://registry.yarnpkg.com/d3/-/d3-4.10.2.tgz#d401b2bc0372a77e6822f278c0e4b4090206babd"
   dependencies:
