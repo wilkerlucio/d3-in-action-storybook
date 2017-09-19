@@ -18,6 +18,7 @@ import {Partition} from "./chapter-6/partition";
 import {Sunburst} from "./chapter-6/sunburst";
 import {Treemap} from "./chapter-6/treemap";
 import {OmFlame} from "./experiments/om-flamegraph";
+import {AdjacencyMatrix} from "./chapter-7/adjacency-matrix";
 import {QueueViewNP} from "./number-picture/queue-view";
 
 storiesOf('Chapter 04 - Chart Components', module)
@@ -34,13 +35,16 @@ storiesOf('Chapter 05 - Layouts', module)
   .add('Sankey', () => <Sankey />)
   .add('WordCloud', () => <WordCloud />)
 
-storiesOf('Chapter 06 - Hierachical Visualizations', module)
+storiesOf('Chapter 06 - Hierachical', module)
   .add('TweetCirclePack', () => <TweetCirclePack/>)
   .add('Dendogram', () => <Dendogram/>)
   .add('Radial', () => <Radial/>)
   .add('Partition', () => <Partition/>)
   .add('Sunburst', () => <Sunburst/>)
   .add('Treemap', () => <Treemap/>)
+
+storiesOf('Chapter 07 - Network', module)
+  .add('AdjacencyMatrix', () => <AdjacencyMatrix/>)
 
 storiesOf('Experiments', module)
   .add('OmFlame', () => <OmFlame data="/data/om-bogus-run.json"/>)
