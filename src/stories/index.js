@@ -21,6 +21,8 @@ import {OmFlame} from "./experiments/om-flamegraph";
 import {AdjacencyMatrix} from "./chapter-7/adjacency-matrix";
 import {QueueViewNP} from "./number-picture/queue-view";
 import {ArcNetwork} from "./chapter-7/arc";
+import {ForcePlay} from "./chapter-7/force";
+import {ForceNetwork} from "./chapter-7/force-network";
 
 storiesOf('Chapter 04 - Chart Components', module)
   .add('Box Chart', () => <BoxRaw />)
@@ -47,6 +49,8 @@ storiesOf('Chapter 06 - Hierachical', module)
 storiesOf('Chapter 07 - Network', module)
   .add('AdjacencyMatrix', () => <AdjacencyMatrix/>)
   .add('ArcNetwork', () => <ArcNetwork/>)
+  .add('ForcePlay', () => <ForcePlay/>)
+  .add('ForceNetwork', () => <ForceNetwork/>)
 
 storiesOf('Experiments', module)
   .add('OmFlame', () => <OmFlame data="/data/om-bogus-run.json"/>)
