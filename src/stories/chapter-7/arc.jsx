@@ -58,6 +58,20 @@ class ArcNetworkD3 extends React.Component {
       .attr('class', 'node')
       .attr('r', 10)
       .attr('cx', d => d.x)
+
+    root.selectAll('circle')
+      .on('mouseover', d => {
+        root.selectAll('circle').classed('active', p => p === d)
+        root.selectAll('path').classed('active', p => p.source === d || p.target === d)
+      })
+
+    root.selectAll('path')
+      .on('mouseover', d => {
+        root.selectAll('path').classed('active', p => p === d)
+        root.selectAll('circle')
+          .classed('source', p => p === d.source)
+          .classed('target', p => p === d.target)
+      })
   }
 
   render() {
