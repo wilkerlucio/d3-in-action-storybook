@@ -49,6 +49,7 @@ storiesOf('Chapter 07 - Network', module)
 storiesOf('Experiments', module)
   .add('OmFlame', () => <OmFlame data="/data/om-bogus-run.json"/>)
   .add('OmFlame Dino', () => <OmFlame data="/data/flame/dino.json"/>)
+  .add('OmFlame Abrams', () => <OmFlame data="/data/flame/abrams.json"/>)
 
 storiesOf('Number Picture', module)
   .add('QueueViewNP', () => <QueueViewNP/>)

@@ -1,0 +1,182 @@
+{
+  "name": "Root",
+  "value": 241240,
+  "children": [
+    {
+      "name": ":boleto\/nosso-numero_90212205",
+      "value": 63075,
+      "children": [
+        {
+          "name": ":boleto\/seu-numero",
+          "value": 2
+        },
+        {
+          "name": ":boleto\/amount",
+          "value": 0
+        },
+        {
+          "name": ":boleto\/creation-date",
+          "value": 1
+        },
+        {
+          "name": ":boleto\/registration",
+          "value": 351,
+          "children": [
+            {
+              "name": ":boleto\/bank",
+              "value": 0
+            }
+          ]
+        },
+        {
+          "name": ":boleto\/actions",
+          "value": 62131,
+          "children": [
+            {
+              "name": "0",
+              "value": 26,
+              "children": [
+                {
+                  "name": ":boleto-action\/dispatch-cnab-line",
+                  "value": 24
+                },
+                {
+                  "name": ":boleto-action\/customer-id",
+                  "value": 2
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": ":boleto\/nosso-numero_90194793",
+      "value": 56347,
+      "children": [
+        {
+          "name": ":boleto\/seu-numero",
+          "value": 0
+        },
+        {
+          "name": ":boleto\/amount",
+          "value": 0
+        },
+        {
+          "name": ":boleto\/creation-date",
+          "value": 0
+        },
+        {
+          "name": ":boleto\/registration",
+          "value": 316,
+          "children": [
+            {
+              "name": ":boleto\/bank",
+              "value": 0
+            }
+          ]
+        },
+        {
+          "name": ":boleto\/actions",
+          "value": 55775
+        }
+      ]
+    },
+    {
+      "name": ":boleto\/nosso-numero_90195321",
+      "value": 40036,
+      "children": [
+        {
+          "name": ":boleto\/seu-numero",
+          "value": 0
+        },
+        {
+          "name": ":boleto\/amount",
+          "value": 0
+        },
+        {
+          "name": ":boleto\/creation-date",
+          "value": 1
+        },
+        {
+          "name": ":boleto\/registration",
+          "value": 189,
+          "children": [
+            {
+              "name": ":boleto\/bank",
+              "value": 0
+            }
+          ]
+        },
+        {
+          "name": ":boleto\/actions",
+          "value": 39721
+        }
+      ]
+    },
+    {
+      "name": ":boleto\/nosso-numero_90194454",
+      "value": 40117,
+      "children": [
+        {
+          "name": ":boleto\/seu-numero",
+          "value": 0
+        },
+        {
+          "name": ":boleto\/amount",
+          "value": 0
+        },
+        {
+          "name": ":boleto\/creation-date",
+          "value": 0
+        },
+        {
+          "name": ":boleto\/registration",
+          "value": 406,
+          "children": [
+            {
+              "name": ":boleto\/bank",
+              "value": 0
+            }
+          ]
+        },
+        {
+          "name": ":boleto\/actions",
+          "value": 39132
+        }
+      ]
+    },
+    {
+      "name": ":boleto\/nosso-numero_90205314",
+      "value": 41665,
+      "children": [
+        {
+          "name": ":boleto\/seu-numero",
+          "value": 0
+        },
+        {
+          "name": ":boleto\/amount",
+          "value": 0
+        },
+        {
+          "name": ":boleto\/creation-date",
+          "value": 0
+        },
+        {
+          "name": ":boleto\/registration",
+          "value": 261,
+          "children": [
+            {
+              "name": ":boleto\/bank",
+              "value": 0
+            }
+          ]
+        },
+        {
+          "name": ":boleto\/actions",
+          "value": 41220
+        }
+      ]
+    }
+  ]
+}

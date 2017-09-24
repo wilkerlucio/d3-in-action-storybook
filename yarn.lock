@@ -2339,9 +2339,9 @@ d3-ease@1, d3-ease@1.0.3, d3-ease@^1.0.3:
   version "1.0.3"
   resolved "https://registry.yarnpkg.com/d3-ease/-/d3-ease-1.0.3.tgz#68bfbc349338a380c44d8acc4fbc3304aa2d8c0e"
 
-d3-flame-graph@^1.0.8:
-  version "1.0.8"
-  resolved "https://registry.yarnpkg.com/d3-flame-graph/-/d3-flame-graph-1.0.8.tgz#f0fd87a7e0c164667abef331bad857f8bb2e457c"
+d3-flame-graph@1.0.10:
+  version "1.0.10"
+  resolved "https://registry.yarnpkg.com/d3-flame-graph/-/d3-flame-graph-1.0.10.tgz#0ed9ecbf0eee96faa5601c034ee61bbe15202088"
   dependencies:
     d3 "^4.10.0"
     d3-tip "^0.7.1"
